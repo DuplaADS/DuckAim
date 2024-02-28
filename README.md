@@ -25,5 +25,3 @@ Ele foi elaborado como nosso projeto final do 1° período do curso de Análise 
 - Movimentação: os players podem pular, mover-se para os lados e apertando para baixo enquanto estiverem saltando podem "cair mais rápido".
 
 # Trata-se de uma proposta simples, mas divertida de criar e jogar.
-
--
