@@ -5,10 +5,10 @@
 
 # PREPARATIVOS
 
-1- O jogo é feito em python, então requer que você o tenha instalado em seu computador. Você pode baixá-lo em [python.org](https://www.python.org/).
-2- Para desenvolver o jogo foi utilizada a biblioteca pygame (instale-a utilizando o comando pip install pygame no cmd).
+1. O jogo é feito em python, então requer que você o tenha instalado em seu computador. Você pode baixá-lo em [python.org](https://www.python.org/).
+2. Para desenvolver o jogo foi utilizada a biblioteca pygame (instale-a utilizando o comando pip install pygame no cmd).
   - Caso pip não seja reconhecido como comando, tente mudar o diretório do seu cmd para onde o pip está instalado.
-3- Abra o arquivo Duck_Aim.py para executar o jogo.
+3. Abra o arquivo Duck_Aim.py para executar o jogo.
   
 # COMO JOGAR
 
