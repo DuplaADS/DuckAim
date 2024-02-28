@@ -1,7 +1,11 @@
 # SOBRE O PROJETO
 
-- Este projeto é um jogo do estilo shooter entre patinhos desenvolvido em colaboração com RogerioDfreitas
-- Ele foi elaborado como projeto final do 1° período do curso de Análise e Desenvolvimento de Sistemas (ADS).
+Este projeto foi uma colaboração entre:
+
+- [Henrique Arcilio](https://github.com/Henrique-Arcilio)
+- [Rogério Pires](https://github.com/RogerioDfreitas)
+  
+Ele foi elaborado como nosso projeto final do 1° período do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
 # PREPARATIVOS
 
@@ -20,4 +24,6 @@
   
 - Movimentação: os players podem pular, mover-se para os lados e apertando para baixo enquanto estiverem saltando podem "cair mais rápido".
 
-# Trata-se de uma proposta simples, mas que foi divertida de criar e jogar.
+# Trata-se de uma proposta simples, mas divertida de criar e jogar.
+
+-
