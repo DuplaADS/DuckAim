@@ -33,11 +33,11 @@ balas_azuis = []
 janela = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Duck Aim")
 
-background = pygame.image.load("imagens/background.jpg")
-amarelo = pygame.image.load("imagens/amarelo.png")
-azul = pygame.image.load("imagens/azul.png")
-tiro_amarelo = pygame.image.load("imagens/tiro_amarelo.png")
-tiro_azul = pygame.image.load("imagens/tiro_azul.png")
+background = pygame.image.load("DuckAim/imagens/background.jpg")
+amarelo = pygame.image.load("DuckAim/imagens/amarelo.png")
+azul = pygame.image.load("DuckAim/imagens/azul.png")
+tiro_amarelo = pygame.image.load("DuckAim/imagens/tiro_amarelo.png")
+tiro_azul = pygame.image.load("DuckAim/imagens/tiro_azul.png")
 
 # -----Retangulos (HitBox)----
 rect_amarelo = pygame.Rect(700, 631, 40, 64)
