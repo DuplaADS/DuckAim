@@ -11,6 +11,7 @@ pygame.font.init()
 relogio = pygame.time.Clock()
 # ----Texto----
 comicsans = pygame.font.SysFont("comicsans", 50)
+comicsansMenor = pygame.font.SysFont("comicsans", 30)
 branco = (255, 255, 255)
 
 vida_amarelo = 3
@@ -151,12 +152,23 @@ while True:
     else:
         if vida_amarelo == 0:
             game_over = comicsans.render("Azul venceu", 1, branco)
-            janela.blit(game_over, (270, 300))
+            janela.blit(game_over, (270, 200))
         elif vida_azul == 0:
             game_over = comicsans.render("Amarelo Venceu", 1, branco)
-            janela.blit(game_over, (200, 300))
+            janela.blit(game_over, (200, 200))
+        
+        #Restaurando jogo
+        
+        balas_amarelas.clear()
+        balas_azuis.clear()
+
+        restart = comicsansMenor.render("Reiniciar? (R)", 1, branco)
+
+        janela.blit(restart, (310, 300))
         if pygame.key.get_pressed()[pygame.K_r]:
+
             rect_amarelo = pygame.Rect(700, 631, 40, 64)
             rect_azul = pygame.Rect(40, 631, 40, 64)
             vida_amarelo = 3
             vida_azul = 3
+
