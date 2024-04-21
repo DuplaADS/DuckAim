@@ -1,4 +1,6 @@
-# SOBRE O PROJETO
+# DuckAim - Jogo de Duelo entre Patinhos
+
+## Sobre o Projeto
 
 Este projeto foi uma colaboração entre:
 
@@ -7,21 +9,29 @@ Este projeto foi uma colaboração entre:
   
 Ele foi elaborado como nosso projeto final do 1° período do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
-# PREPARATIVOS
+**Imagem dos Players:** Utilizamos como base a imagem do [OpenGameArt](https://opengameart.org/content/cute-duck-animated-set) para representar os players no jogo.
 
-1. O jogo é feito em python, então requer que você o tenha instalado em seu computador. Você pode baixá-lo em [python.org](https://www.python.org/).
-2. Para desenvolver o jogo foi utilizada a biblioteca pygame (instale-a utilizando o comando pip install pygame no cmd).
-  - Caso pip não seja reconhecido como comando, tente mudar o diretório do seu cmd para onde o pip está instalado.
+**Plano de Fundo e Demais Imagens:** Todas as outras imagens, incluindo o plano de fundo, foram criadas por nossa equipe.
+
+Agradecemos aos criadores originais pela disponibilização desses recursos e esperamos que você aproveite o jogo!
+
+## Preparativos
+
+1. O jogo é feito em Python, então requer que você o tenha instalado em seu computador. Você pode baixá-lo em [python.org](https://www.python.org/).
+2. Para desenvolver o jogo, foi utilizada a biblioteca pygame. Você pode instalá-la utilizando o comando `pip install pygame` no terminal.
+   - Caso `pip` não seja reconhecido como comando, tente mudar o diretório do seu terminal para onde o `pip` está instalado.
 3. Abra o arquivo Duck_Aim.py para executar o jogo.
-  
-# COMO JOGAR
 
-- Proposta: o jogo trata-se de um duelo entre dois players (patinhos). Cada player possui seu lado da arena e pode atirar contra seu adversário.
-  
-- Comandos: o player amarelo se move nas setinhas do teclado e atira no RSHIFT, enquanto o azul se move nas teclas WASD e atira no LSHIFT.
-  
-- Objetivo: o objetivo é zerar os HP POINTS do adversário e assim vencê-lo. Cada player iniciará com 3 HP POINTS.
-  
-- Movimentação: os players podem pular, mover-se para os lados e apertando para baixo enquanto estiverem saltando podem "cair mais rápido".
+## Como Jogar
 
-# Trata-se de uma proposta simples, mas divertida de criar e jogar.
+- **Proposta:** O jogo trata-se de um duelo entre dois players (patinhos). Cada player possui seu lado da arena e pode atirar contra seu adversário.
+  
+- **Comandos:** 
+  - O player amarelo se move nas setinhas do teclado e atira no RSHIFT.
+  - O player azul se move nas teclas WASD e atira no LSHIFT.
+  
+- **Objetivo:** O objetivo é zerar os HP POINTS do adversário e assim vencê-lo. Cada player iniciará com 3 HP POINTS.
+  
+- **Movimentação:** Os players podem pular, mover-se para os lados e, apertando para baixo enquanto estiverem saltando, podem "cair mais rápido".
+
+Trata-se de uma proposta simples, mas divertida de criar e jogar.
