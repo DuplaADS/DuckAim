@@ -29,12 +29,13 @@ gravidade_azul = 0
 balas_amarelas = []
 balas_azuis = []
 
-
+# --- SONS ---
+som_atirando = pygame.mixer.Sound("sons/shoot.wav")
+som_pulando = pygame.mixer.Sound("sons/jump.wav")
 # Superficies:
-
-# ---- IMAGENS ----
 janela = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Duck Aim")
+# ---- IMAGENS ----
 
 background = pygame.image.load("imagens/background.jpg")
 amarelo = pygame.image.load("imagens/amarelo.png")
@@ -105,16 +106,20 @@ while True:
         elif event.type == pygame.KEYDOWN:
 
             if event.key == pygame.K_UP and rect_amarelo.bottom == 567:
+                som_pulando.play()                
                 gravidade_amarelo = -20
 
             if event.key == pygame.K_w and rect_azul.bottom == 567:
+                som_pulando.play()
                 gravidade_azul = -20
 
             if event.key == pygame.K_RSHIFT and len(balas_amarelas) < 2:
+                som_atirando.play()
                 bala = pygame.Rect(rect_amarelo.x, rect_amarelo.y + 32, 15, 8)
                 balas_amarelas.append(bala)
 
             if event.key == pygame.K_LSHIFT and len(balas_azuis) < 2:
+                som_atirando.play()
                 bala = pygame.Rect(rect_azul.x + 32, rect_azul.y + 32, 15, 8)
                 balas_azuis.append(bala)
 

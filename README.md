@@ -9,9 +9,18 @@ Este projeto foi uma colaboração entre:
   
 Ele foi elaborado como nosso projeto final do 1° período do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
-**Imagem dos Players:** Utilizamos como base a imagem do [OpenGameArt](https://opengameart.org/content/cute-duck-animated-set) para representar os players no jogo.
+# Créditos
 
-**Plano de Fundo e Demais Imagens:** Todas as outras imagens, incluindo o plano de fundo, foram criadas por nossa equipe.
+## Imagens
+
+- **Players:** Utilizamos como base a imagem do [OpenGameArt](https://opengameart.org/content/cute-duck-animated-set) por kotnaszynce para representar os players no jogo.
+
+## Sons
+
+- [**shoot.wav**](https://freesound.org/people/bolkmar/sounds/421704/) por bolkmar, licenciado sob [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
+- [**jump.wav**](https://freesound.org/people/vibritherabjit123/sounds/644410/) por Limited Sounds Ltd., licenciado sob [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/)
+  
+Todas as outras imagens, incluindo o plano de fundo, foram criadas por nossa equipe.
 
 Agradecemos aos criadores originais pela disponibilização desses recursos e esperamos que você aproveite o jogo!
 
