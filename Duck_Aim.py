@@ -12,7 +12,9 @@ relogio = pygame.time.Clock()
 # ----Texto----
 comicsans = pygame.font.SysFont("comicsans", 50)
 comicsansMenor = pygame.font.SysFont("comicsans", 30)
-branco = (255, 255, 255)
+corBranca = (255, 255, 255)
+corAmarela = (250, 241, 110) 
+corAzul = (22, 206, 247)
 
 vida_amarelo = 3
 vida_azul = 3
@@ -56,8 +58,8 @@ def desenhar(tiros_amarelos, tiros_azuis, disparo_am, disparo_az, hp1, hp2):
     for balas in tiros_azuis:
         janela.blit(disparo_az, balas)
 
-    txt_vida_amarelo = comicsans.render("HP: " + str(hp1), 1, branco)
-    txt_vida_azul = comicsans.render("HP: " + str(hp2), 1, branco)
+    txt_vida_amarelo = comicsans.render("HP: " + str(hp1), 1, corAmarela)
+    txt_vida_azul = comicsans.render("HP: " + str(hp2), 1, corAzul)
     janela.blit(txt_vida_amarelo, (670, 0))
     janela.blit(txt_vida_azul, (0, 0))
 
@@ -151,10 +153,10 @@ while True:
     # GameOver
     else:
         if vida_amarelo == 0:
-            game_over = comicsans.render("Azul venceu", 1, branco)
+            game_over = comicsans.render("Azul venceu", 1, corAzul)
             janela.blit(game_over, (270, 200))
         elif vida_azul == 0:
-            game_over = comicsans.render("Amarelo Venceu", 1, branco)
+            game_over = comicsans.render("Amarelo Venceu", 1, corAmarela)
             janela.blit(game_over, (200, 200))
         
         #Restaurando jogo
@@ -162,7 +164,7 @@ while True:
         balas_amarelas.clear()
         balas_azuis.clear()
 
-        restart = comicsansMenor.render("Reiniciar? (R)", 1, branco)
+        restart = comicsansMenor.render("Reiniciar? (R)", 1, corBranca)
 
         janela.blit(restart, (310, 300))
         if pygame.key.get_pressed()[pygame.K_r]:
