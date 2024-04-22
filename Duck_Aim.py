@@ -1,10 +1,13 @@
 # importando
 import pygame
+import os
 from sys import exit
 
 pygame.init()
 pygame.font.init()
 
+# --- Pegando Diretório atual ---
+diretorio_atual = os.getcwd()
 
 # Variaveis:
 # ----FPS----
@@ -30,18 +33,23 @@ balas_amarelas = []
 balas_roxas = []
 
 # --- SONS ---
-som_atirando = pygame.mixer.Sound("sons/shoot.wav")
-som_pulando = pygame.mixer.Sound("sons/jump.wav")
+diretorio_sons = os.path.join(diretorio_atual, "sons")
+
+som_atirando = pygame.mixer.Sound(os.path.join(diretorio_sons, "shoot.wav"))
+som_pulando = pygame.mixer.Sound(os.path.join(diretorio_sons, "jump.wav"))
+
 # Superficies:
 janela = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Duck Aim")
-# ---- IMAGENS ----
 
-background = pygame.image.load("imagens/background.jpg")
-amarelo = pygame.image.load("imagens/amarelo.png")
-roxo = pygame.image.load("imagens/roxo.png")
-tiro_amarelo = pygame.image.load("imagens/tiro_amarelo.png")
-tiro_roxo = pygame.image.load("imagens/tiro_roxo.png")
+# ---- IMAGENS ----
+diretorio_imagens = os.path.join(diretorio_atual, "imagens")
+
+background = pygame.image.load(os.path.join(diretorio_imagens, "background.jpg"))
+amarelo = pygame.image.load(os.path.join(diretorio_imagens, "amarelo.png"))
+roxo = pygame.image.load(os.path.join(diretorio_imagens, "roxo.png"))
+tiro_amarelo = pygame.image.load(os.path.join(diretorio_imagens, "tiro_amarelo.png"))
+tiro_roxo = pygame.image.load(os.path.join(diretorio_imagens, "tiro_roxo.png"))
 
 # -----Retangulos (HitBox)----
 rect_amarelo = pygame.Rect(700, 631, 40, 64)
