@@ -7,7 +7,7 @@ pygame.init()
 pygame.font.init()
 
 # --- Pegando Diretório atual ---
-diretorio_atual = os.getcwd()
+diretorio_atual = os.path.dirname(__file__)
 
 # Variaveis:
 # ----FPS----
