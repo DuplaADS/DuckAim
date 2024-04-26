@@ -42,5 +42,3 @@ Agradecemos aos criadores originais pela disponibilização desses recursos e es
 - **Objetivo:** O objetivo é zerar os HP POINTS do adversário e assim vencê-lo. Cada player iniciará com 3 HP POINTS.
   
 - **Movimentação:** Os players podem pular, mover-se para os lados e, apertando para baixo enquanto estiverem saltando, podem "cair mais rápido".
-
-Trata-se de uma proposta simples, mas divertida de criar e jogar.
